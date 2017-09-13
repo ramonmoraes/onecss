@@ -1,0 +1,93 @@
+.flex{
+  display: flex;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+
+.nowrap{
+  flex-wrap: wrap;
+}
+
+
+/*Extra small devices (stand-up phones, 575px and down)*/
+@media screen and (max-width: 575px) {
+  .xs-row{
+    flex-direction: row;
+  }
+  .xs-column{
+    flex-direction: column;
+  }
+  .xs-hidden{
+    visibility: hidden;
+  }
+  .xs-disnone{
+    display: none;
+  }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media screen and (min-width: 576px) {
+  .sm-row{
+    flex-direction: row;
+  }
+  .sm-column{
+    flex-direction: column;
+  }
+  .sm-hidden{
+    visibility: hidden;
+  }
+  .sm-disnone{
+    display: none;
+  }
+}
+
+ /*Medium devices (tablets, 768px and up)*/
+@media screen and (min-width: 768px) {
+  .md-row{
+    flex-direction: row;
+  }
+  .md-column{
+    flex-direction: column;
+  }
+  .md-hidden{
+    visibility: hidden;
+  }
+  .md-disnone{
+    display: none;
+  }
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media screen and (min-width: 992px) {
+  .lg-row{
+    flex-direction: row;
+  }
+  .lg-column{
+    flex-direction: column;
+  }
+  .lg-hidden{
+    visibility: hidden;
+  }
+  .lg-disnone{
+    display: none;
+  }
+
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media screen and (min-width: 1200px) {
+  .xl-row{
+    flex-direction: row;
+  }
+  .xl-column{
+    flex-direction: column;
+  }
+  .xl-hidden{
+    visibility: hidden;
+  }
+  .xl-disnone{
+    display: none;
+  }
+
+}
